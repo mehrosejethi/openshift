@@ -1,0 +1,14 @@
+---
+ansible_connection: local
+
+openshift_cluster_content:
+- object: projects
+  content:
+    - name: dev
+      template: "{{ inventory_dir }}/../templates/boot-spring/boot-spring.yaml"
+      params: "{{ inventory_dir }}/../params/boot-spring/spring-boot-test"
+      action: apply
+      ignore_unknown_parameters: false
+      tags:
+      - boot-spring
+      - boot-spring-dev

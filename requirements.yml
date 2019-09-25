@@ -1,0 +1,3 @@
+- name: openshift-applier
+  scm: git
+  src: https://github.com/redhat-cop/openshift-applier
