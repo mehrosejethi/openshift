@@ -1,0 +1,2 @@
+roles/openshift-applier
+inventory/group_vars/all.yml
