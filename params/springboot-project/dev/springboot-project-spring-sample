@@ -1,4 +1,4 @@
 PROJECT_NAME=springboot-project-dev
 APP_NAME=spring-sample
 APP_GIT_URL=https://github.com/springframeworkguru/springbootwebapp
-POD_COUNT=1
+POD_COUNT=2
