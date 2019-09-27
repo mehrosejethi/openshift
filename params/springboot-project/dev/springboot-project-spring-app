@@ -1,0 +1,4 @@
+PROJECT_NAME=springboot-project-dev
+APP_NAME=spring-app
+APP_GIT_URL=https://github.com/ALOKSAXEN/springbootwebapp.git
+POD_COUNT=1
